@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="image.css">
+</head>
+<body>
+
+    <div class="slider-container">
+        <div class="slider" id="imageSlider">
+            <div class="slide">
+                <img src="tajmahal.jpg" alt="Image 1">
+            </div>
+            <div class="slide">
+                <img src="EiffelTower.jpg" alt="Image 2">
+            </div>
+            <div class="slide">
+                <img src="seoul.jpg" alt="Image 3">
+            </div>
+        </div>
+        <button class="prev-arrow" onclick="prevSlide()">&#10094;</button>
+        <button class="next-arrow" onclick="nextSlide()">&#10095;</button>
+    </div>
+
+    <script src="image.js"></script>
+
+</body>
+</html>
